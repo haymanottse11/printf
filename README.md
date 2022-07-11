@@ -1,1 +1,1 @@
-This project is a collaboration Between Haymi Haddis and Kidus Zelalem about printf function
+kidus Zelalem and Haymi Haddis collaboration
