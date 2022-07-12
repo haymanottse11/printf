@@ -8,6 +8,7 @@
  *
  * Return: On success 1.
  */
+/*****************No. 1.***********************************/
 int print_chr(va_list arguments, char *buf, unsigned int ibuf)
 {
 	char c;
