@@ -19,6 +19,7 @@ typedef struct print
 	char *type_arg;
 	int (*f)(va_list, char *, unsigned int);
 } print_t;
+/*******************prototypes**************************/
 
 int _printf(const char *format, ...);
 int print_prg(va_list __attribute__((unused)), char *, unsigned int);
