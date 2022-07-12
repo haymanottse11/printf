@@ -1,4 +1,4 @@
-/" Manpage for _printf.c
+/" Manpage for _printf.c written by kidus zelalem and haymi haddis
 _printf 3 "10 July 2022" "1.0" "Program Manual for _printf"
  NAME
 _printf - formatted output conversion and print data.
