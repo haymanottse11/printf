@@ -1,10 +1,9 @@
 #include "main.h"
-
 /**
 * _printf - f
 * @format: input string.
 *
-* Return: number of chars printed.
+* Return: The lenght of the char.
 */
 int _printf(const char *format, ...)
 {
