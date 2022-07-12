@@ -21,7 +21,7 @@ int print_add(va_list arguments, char *buf, unsigned int ibuf)
 	{
 		for (i = 0; nill[i]; i++)
 			ibuf = handl_buf(buf, nill[i], ibuf);
-			return (5);
+		return (5);
 	}
 	int_input = (intptr_t)add;
 	isnegative = 0;
