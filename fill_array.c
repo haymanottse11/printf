@@ -17,14 +17,14 @@ char *fill_binary_array(char *binary, long int int_in, int isneg, int limit)
 
 	for (i = 0; i < limit; i++)
 		binary[i] = '0';
-		binary[limit] = '\0';
+	binary[limit] = '\0';
 	for (i = limit - 1; int_in > 1; i--)
 	{
 		if (int_in == 2)
 			binary[i] = '0';
 		else
 			binary[i] = (int_in % 2) + '0';
-			int_in /= 2;
+		int_in /= 2;
 	}
 	if (int_in != 0)
 		binary[i] = '1';
@@ -64,7 +64,7 @@ char *fill_hex_array(char *bnr, char *hex, int isupp, int limit)
 	{
 		for (op = 0, j = 1; j <= 8; j *= 2, i--)
 			op = ((bnr[i] - '0') * j) + op;
-			i++;
+		i++;
 		if (op < 10)
 			hex[i / 4] = op + 48;
 		else
@@ -95,7 +95,7 @@ char *fill_long_oct_array(char *bnr, char *oct)
 			limit = 1;
 		for (op = 0, j = 1; j <= limit; j *= 2, i--)
 			op = ((bnr[i] - '0') * j) + op;
-			i++;
+		i++;
 		oct[ioct] = op + '0';
 	}
 	return (oct);
@@ -123,7 +123,7 @@ char *fill_oct_array(char *bnr, char *oct)
 			limit = 2;
 		for (op = 0, j = 1; j <= limit; j *= 2, i--)
 			op = ((bnr[i] - '0') * j) + op;
-			i++;
+		i++;
 		oct[ioct] = op + '0';
 	}
 return (oct);
@@ -151,7 +151,7 @@ char *fill_short_oct_array(char *bnr, char *oct)
 			limit = 1;
 		for (op = 0, j = 1; j <= limit; j *= 2, i--)
 			op = ((bnr[i] - '0') * j) + op;
-			i++;
+		i++;
 		oct[ioct] = op + '0';
 	}
 	return (oct);

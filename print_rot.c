@@ -28,9 +28,9 @@ int print_rot(va_list arguments, char *buf, unsigned int ibuf)
 		{
 			if (str[i] == alf[j])
 			{
-				 k = 1;
-				 ibuf = handl_buf(buf, rot[j], ibuf);
-				 break;
+				k = 1;
+				ibuf = handl_buf(buf, rot[j], ibuf);
+				break;
 			}
 		}
 		if (k == 0)
